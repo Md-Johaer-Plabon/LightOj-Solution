@@ -1,1 +1,1 @@
-# LightOj
+# LightOj Solution

@@ -10,7 +10,7 @@
   There maybe impossible case when the no. Of piajus which are left are greater than
   The piajus which are ate.Beacuse the contestants will continue their party(eating 
   piaju) until they can eat everyone equally. So the result will be the total divisiors
-  (of number of piajus which are ate) who are greater than the amount of piajus which are
+  (number of piajus which are ate) who are greater than the amount of piajus which are
   left.
   
   Example:If there was 10 piajus during party and left no piaju after finishing 
@@ -19,8 +19,8 @@
   eat 5 piaju), 10(If anyone eats 10 piajus).
 
   But if there are 10 piajus and 6 piajus are left this case is impossible because 
-  There are so many people in the party,So as it is possible to make a partition of 4
-  People will also make a partition of 4 piaju as there has much piajus and then 2 piajus
+  There are so many people in the party.As it is possible to make a partition of 4 piajus
+  People will also make a partition of 4 piaju as there has much piajus.Then 2 piajus
   will left because there is no more possibilities to make another equal partition of piaju. 
 */
 

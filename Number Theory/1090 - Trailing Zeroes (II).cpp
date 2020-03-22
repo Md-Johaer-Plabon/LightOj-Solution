@@ -1,3 +1,28 @@
+/* Name : Johaer Plabon
+   Dept. of CSE,SEC.
+   11th batch(2017-18).
+   
+   Problem Name : Trailing Zeroes (II).
+   
+   Solution Idea : If we calculate 5! how many trailing zeroes will be there?
+   We know 5!=120, So the ans is 1 trailing zero.Because there are only one 5
+   and for that because of multiplying it with even number(2 or 2^2=4) we have get 1 zero.
+   So in this problem our task will be to count 5 and 2.
+   How many 5 are in range of [1,100]. Ans is 100/5 + 100/5^2 = 24. As 5^3>100 we won't
+   continue.
+   Now we can count total 5 & 2 of 'ncr' = n!/r!*(n-r)! and also of p^q.
+
+
+
+
+
+
+
+
+
+
+
+
 #include<bits/stdc++.h>
 #define ll long long
 using namespace std;

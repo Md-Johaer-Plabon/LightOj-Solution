@@ -14,15 +14,6 @@
    By using ModInverse the denominators of equation we can solve the problem.
 */ 
    
-   
-
-
-
-
-
-
-
-
 
 #include<bits/stdc++.h>
 #define ll long long

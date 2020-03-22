@@ -1,3 +1,19 @@
+/* Name : Johaer Plabon
+   11th batch(2017-18),
+   Dept of CSE,SEC.
+   
+   Problem Name : Mathemathematically  Hard.
+   Solution Idea: It's a very easy problem of "Sieve Of Phi".
+   Firstly we have to generate phi value in the array.Then as we have to calculate total 
+   score between a range of[a,b],to save our time we have to store the cumulative sum in array.
+   To save our memory we can store the cumulative sum in same array.Otherwise we have to face TLE
+   to execute the programme.
+   */
+
+
+
+
+
 #include<bits/stdc++.h>
 #define ll unsigned long long int
 using namespace std;

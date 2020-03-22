@@ -1,3 +1,18 @@
+/* Name : Johaer Plabon.
+   Dept. Of CSE,SEC.
+   11th batch(2017-18).
+
+   Problem Name : Trailing Zeros (I).
+   Solution Idea : The possible bases when the number will contain at least a zero in 
+   Trail is total number of divisiors of that number.Here if you approach bruteforce
+   to count total divisior, you will get TLE.
+   You can find this in O(log(n)) time. For that you have to find out the prime factors.
+   
+   Example : 20 = 2^2 * 5^1.So total divs are (2+1)*(1+1) = 6.
+   So the eqn stands, if N = P1^k1 * P2^k2 * P3^k3.......Pn^kn.
+    Then, NOD(N) = (k1+1)*(k2+1)*(k3+1)......(kn+1). 
+*/
+
 #include<bits/stdc++.h>
 #define ll long long int
 using namespace std;

@@ -26,6 +26,7 @@ for(ll i=2;i<=5000001;i++){
     for(ll j=i;j<=5000001;j+=i)
         phi[j]-=phi[j]/i;
 }
+   ///Storing Cumulative sum of score in array
 for(ll i=2;i<=5000000;i++){
     ll temp=phi[i];
     phi[i]*=temp;

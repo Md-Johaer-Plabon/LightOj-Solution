@@ -1,3 +1,29 @@
+/* Name : Johaer Plabon
+   Dept. Of CSE,SEC.
+   11th batch(2017-18).
+
+   Problem name : Efficient Pseudo Code.
+   Solution Idea : The problem is combination of some algorithm such as Bigmod,ModInverse,
+   Prime factor.We know,
+   If N = p1^k1 * p2^k2.....pn^kn,then
+
+   SOD(N) =  [p1^(k1+1) + 1/(k1-1)] * [p2^(k2+1) + 1/(k2-1)]......[pn^(kn+1)+1/(kn-1)].
+
+   So, SOD(N^X) =  [p1^(k1+1) + 1/(k1-1)]^X * [p2^(k2+1) + 1/(k2-1)]^X.....
+                   ...[pn^(kn+1)+1/(kn-1)]^X.
+   By using ModInverse the denominators of equation we can solve the problem.
+*/ 
+   
+   
+
+
+
+
+
+
+
+
+
 #include<bits/stdc++.h>
 #define ll long long
 #define f first

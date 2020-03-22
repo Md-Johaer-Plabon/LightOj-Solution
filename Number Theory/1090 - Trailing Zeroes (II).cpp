@@ -11,16 +11,7 @@
    How many 5 are in range of [1,100]. Ans is 100/5 + 100/5^2 = 24. As 5^3>100 we won't
    continue.
    Now we can count total 5 & 2 of 'ncr' = n!/r!*(n-r)! and also of p^q.
-
-
-
-
-
-
-
-
-
-
+*/
 
 
 #include<bits/stdc++.h>

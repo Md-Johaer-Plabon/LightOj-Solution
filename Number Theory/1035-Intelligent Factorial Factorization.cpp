@@ -1,3 +1,14 @@
+ 
+/* Name : Johaer Plabon
+   11th batch(2017-18),
+   Dept of CSE,SEC.
+   
+   Problem Name : Intelligent Factorial Factorizatio. 
+   
+   Implementation problem of prime factor.
+*/  
+
+
 #include<bits/stdc++.h>
 #define ll long long int
 using namespace std;

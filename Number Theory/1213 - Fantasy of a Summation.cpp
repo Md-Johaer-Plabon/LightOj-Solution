@@ -24,7 +24,7 @@
     loop = n^(k-1) * sum.
  
     Step 2 : Now we have to count the extra value who have added to the sum.
-    Ans is the sum of step1 will be added for extra k time.
+    Ans is : the sum of step1 will be added for extra k time.
     So the result will be (sum * k)%mod.
 
 */

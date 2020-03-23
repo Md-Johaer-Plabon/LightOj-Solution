@@ -5,7 +5,7 @@
    
    Problem Name : Combinations.
 
-   Topic : Modular Inverse,Modular arithmeti. 
+   Topic : Modular Inverse,Modular arithmetic . 
 
 */  
 

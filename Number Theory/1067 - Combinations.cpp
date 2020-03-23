@@ -1,3 +1,16 @@
+ 
+/* Name : Johaer Plabon
+   11th batch(2017-18),
+   Dept of CSE,SEC.
+   
+   Problem Name : Combinations.
+
+   Topic : Modular Inverse,Modular arithmeti. 
+
+*/  
+
+
+
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long

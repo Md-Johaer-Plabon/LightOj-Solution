@@ -5,11 +5,16 @@
    Dept of CSE,SEC.
    
    Problem Name : Trailing zeroes (III).
-   Solution Idea : The problem is to find out the number where the factorial of number 
-   contain given zeroes in trail.Here we have to find out the minimal number which
-   contain essential amount of 5.Because of a large amount of even number or 2 than 5,
+   Solution Idea : The problem is to find out the number 'N'  where the factorial of 'N' 
+   contains given zeroes in trail.Here we have to find out the minimal number which
+   contains essential amount of 5.Because of a large amount of even number or 2 than 5,
    there is no need to check how many 2 are there.We can perform this work using
    binary search in log2(n) time.
+   
+   Example : Amount of 2 in 10! = 10/2 + 10/2^2 + 10/2^3 = 8.
+             Amount of 5 in 10! = 10/5 +  10/5^2 = 2.
+             So there is no need to calculate the amount of 2.As there are two 5
+             from 1 to 10, there are two trailing zeroes in 10!.
 */
 
 

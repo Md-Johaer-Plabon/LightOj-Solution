@@ -2,7 +2,7 @@
    11th batch(2017-18),
    Dept of CSE,SEC.
    
-   Problem Name : Large Divisio. 
+   Problem Name : Large Division.   
  
 */
 

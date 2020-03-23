@@ -1,3 +1,17 @@
+
+ 
+/* Name : Johaer Plabon
+   11th batch(2017-18),
+   Dept of CSE,SEC.
+   
+   Problem Name : Help Hanzo.
+   Topic : Segmented Sieve.
+           It calculates total prime numbers in [a,b]<=10^6.
+
+*/
+
+
+
 #include<bits/stdc++.h>
 #define ll long long int
 using namespace std;

@@ -9,10 +9,10 @@
 
    If N = p1^k1 * p2^k2.....pn^kn,then
 
-   SOD(N) =  [p1^(k1+1) + 1/(k1-1)] * [p2^(k2+1) + 1/(k2-1)]......[pn^(kn+1)+1/(kn-1)].
+   SOD(N) =  [p1^(k1+1) + 1/(p1-1)] * [p2^(k2+1) + 1/(p2-1)]......[pn^(kn+1)+1/(pn-1)].
 
-   So, SOD(N^X) =  [p1^(k1+1) + 1/(k1-1)]^X * [p2^(k2+1) + 1/(k2-1)]^X.....
-                   ...[pn^(kn+1)+1/(kn-1)]^X.
+   So, SOD(N^X) =  [p1^(k1+1) + 1/(p1-1)]^X * [p2^(k2+1) + 1/(p2-1)]^X.....
+                   ...[pn^(kn+1)+1/(pn-1)]^X.
    By using ModInverse the denominators of equation we can solve the problem.
 */ 
    

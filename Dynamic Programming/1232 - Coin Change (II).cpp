@@ -10,10 +10,6 @@
  */
 
 
-
-
-
-
 #include<bits/stdc++.h>
 using namespace std;
 #define mod 100000007

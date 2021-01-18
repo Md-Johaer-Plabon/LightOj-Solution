@@ -29,7 +29,7 @@ int bfs(int x,int y,int ind){
 		q.pop(); 
 		
 		if(yi+1<n&&!vis[xi][yi+1]) 
-		q.push({xi,yi+1}),dis[xi][yi+1]=dis[xi][yi]+1,vis[xi][yi+1];  
+		q.push({xi,yi+1}),dis[xi][yi+1]=dis[xi][yi]+1,vis[xi][yi+1]=1;  
 		
 		if(yi-1>=0&&!vis[xi][yi-1]) 
 		q.push({xi,yi-1}),vis[xi][yi-1]=1,dis[xi][yi-1]=dis[xi][yi]+1;  

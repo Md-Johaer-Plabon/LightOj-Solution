@@ -1,3 +1,9 @@
+/* 
+Name : Joaher Plabon 
+Dept : CSE, Sylhet Engineering College 
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 vector<int>v[100005],empt; 
@@ -50,7 +56,7 @@ int main() {
 		sort(tr.begin(),tr.end(),greater<pair<int,int> >() ); 
 
 		cin>>q; 
-	//	cout<<"query = "<<q<<endl;
+
 		while(q--){
 		   scanf("%d",&x); 
 		   if(x>node)printf("impossible\n");

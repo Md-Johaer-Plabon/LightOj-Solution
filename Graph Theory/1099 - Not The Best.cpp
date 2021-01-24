@@ -7,7 +7,7 @@ Idea : For second best shortest path ->
         2.Then again do dijkastra from N -> 1 and save the minimum distance to dis1[]. 
         3.Mark the nodes of shortest path,if there are multiple shortest path then mark all of nodes of possible shortest path. 
         4.Iterate the marked nodes and do minimum if ans>dis[N],
-                       ans = min (ans,dis[node]+dis1[node->adj.node]+cost between node and adj.node) 
+                       ans = min (ans,dis[node]+dis1[node->adj.node]+cost/weight between node and adj.node) 
         5.Now, ans is second best shortest cost from 1 -> N. 
 
      .... For marking the nodes of shortest path I've stored the parent nodes of all nodes....

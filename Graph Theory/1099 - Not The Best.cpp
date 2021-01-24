@@ -8,7 +8,8 @@ Idea : For second best shortest path ->
         3.Mark the nodes of shortest path,if there are multiple shortest path then mark all of nodes of possible shortest path. 
         4.Iterate the marked nodes and do minimum if ans>mindis[N],
                        ans = min (ans,dis[node]+dis1[node->adj.node]+cost between node and adj.node) 
-        5.Now, ans is second best shortest cost from 1 -> N.
+        5.Now, ans is second best shortest cost from 1 -> N. 
+	
 */
 
 

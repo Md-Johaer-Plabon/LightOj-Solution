@@ -72,6 +72,7 @@ int main (){
 			 num = multiply(num,to_string(temp));
 		} 
 		cout<<"Case "<<++cs<<": "<<num<<endl;
-	}
+	} 
+  return 0;
 }
   

@@ -49,8 +49,6 @@ string multiply(string num1, string num2) {
 } 
 
 int main (){ 
-    ios::sync_with_stdio(0); 
-    
 	int t,cs=0; 
 	cin>>t;
 	while(t--){

@@ -48,7 +48,9 @@ string multiply(string num1, string num2) {
     return s; 
 } 
 
-int main (){
+int main (){ 
+    ios::sync_with_stdio(0); 
+    
 	int t,cs=0; 
 	cin>>t;
 	while(t--){
@@ -65,11 +67,9 @@ int main (){
 		  } 
 		  if(!mp[arr[i]]&&n>1)v.push_back(arr[i]),mp[arr[i]]=1;
 		} 
-	string num,num2; 
-	int temp = pow(v[0],mp[v[0]]); 
-	temp *= pow(v[1],mp[v[1]]); 
-	num = to_string(temp);
-		for(int i=2;i<v.size();i++){
+	string num="1"; 
+        int temp;
+		for(int i=0;i<v.size();i++){
 			 temp = pow(v[i],mp[v[i]]); 
 			 num = multiply(num,to_string(temp));
 		} 

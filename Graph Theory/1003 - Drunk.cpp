@@ -1,6 +1,7 @@
 /* 
 Name : Johaer Plabon 
 Dept : CSE,Sylhet Engineering College 
+Topic : Strongly Connected Component,Direscted Acyclic Graph(DAG).
 */ 
 
 

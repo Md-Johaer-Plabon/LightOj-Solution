@@ -9,8 +9,9 @@ Hint : Steps ->
          4. Traversing From choosen node if its found an one way tree ,then its possible(print YES) otherwise NO. 
          
          Or, 
-         *** skip step no.3 and 4. And after srep 2,in the created DAG if there are any node have more than 1 outdegree 
-             then its not possible(print YES) otherwise NO. 
+         *** skip step no.3 and 4. And after step 2,in the created DAG if there are any node have more than 1 outdegree 
+             then its not possible(print NO) otherwise YES. 
+	     
          N.B: The single path is obviously not possible ,if there are more than one graph.
 */ 
 

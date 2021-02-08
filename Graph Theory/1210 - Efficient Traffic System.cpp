@@ -15,7 +15,8 @@ Hint : Steps->
 using namespace std; 
 vector<int>color(20005,0); 
 vector<int>v[20005],rev[20005],dag[20005]; 
-int tme,en[20005];
+int tme,en[20005]; 
+
 void topsort(int x){
    color[x]=2; 
    tme++; 

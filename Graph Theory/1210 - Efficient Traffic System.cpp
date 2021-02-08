@@ -4,7 +4,7 @@ Dept : CSE,Sylhet Engineering College
 Topic : Strongly Connected Component,Cycles. 
 Hint : Steps-> 
            1. Using SCC make the graph DAG(Directed Acyclic) 
-           2. Consider every component as a node. 
+           2. Consider each component as a node. 
            3. Count total zero indegree node and also total zero outdegree node. 
            4. To make the graph strongly connected , the result is , 
                       result = max(Total_zero_indegree , Total_zero_outdegree).

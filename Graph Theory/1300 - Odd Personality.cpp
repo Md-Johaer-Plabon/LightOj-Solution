@@ -7,6 +7,7 @@ Topic : Bi-Connected Component.
 
 #include <bits/stdc++.h>
 using namespace std; 
+
 vector<int>v[10005];
 vector<int>vis(10005,0),low(10005,0),par(10005,0); 
 vector<int>odd(10005,0),color(10005,0);  
@@ -67,6 +68,7 @@ void clr(){
 	while(!st.empty())st.pop(); 
 	tme=0;
 }
+
 int main() {
 	int t,cs=0; 
 	cin>>t; 
@@ -79,15 +81,16 @@ int main() {
 		
 		flag=0;
 		for(int i=0;i<n;i++) 
-		if(!vis[i]) 
-		tarjan(i); 
+		  if(!vis[i]) 
+		    tarjan(i); 
 		
 		int ans =0;
 		for(int i=0;i<n;i++)vis[i]=color[i];
+		
 		for(int i=0;i<n;i++) {
-		if(color[i]) { 
-		tme=0,chk=0; 
-		ans += bicolor(i,color[i]); 
+		  if(color[i]) { 
+		    tme=0,chk=0; 
+		       ans += bicolor(i,color[i]); 
 		}
 	} 
 	printf("Case %d: %d\n",++cs,ans);

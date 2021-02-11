@@ -5,11 +5,7 @@ Topic : Bi-Connected Component.
 Hints : Steps --> 
             1. Apply Tarjan's algorithm in a modified way to make each cycles a component. 
             2. Consider each component a node which will make the graph a tree. 
-            3. Result = ceil (A + B)/2. 
-                 Where,
-                    A =  Number of node which has no child . 
-                    B =  If root node has one child,then B=1 else B=0. 
-                    
+            3. Result = ceil (Number of node whose are connected with only one node)/2.                 
  */ 
  
  

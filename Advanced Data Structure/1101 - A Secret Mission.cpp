@@ -1,10 +1,8 @@
-/*
-Author : Johaer Plabon
- 11th batch(2017-18),
-   Dept of CSE,SEC.
-Topic : MST+LCA+RMQ
-  
-*/
+/* 
+Author : Johaer Plabon 
+Dept : CSE,Sylhet Engineering College 
+Topic : MST + LCA + RMQ 
+*/ 
 
 
 #include <bits/stdc++.h>

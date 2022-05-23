@@ -1,6 +1,9 @@
 /*
 Author : Johaer Plabon
+ 11th batch(2017-18),
+   Dept of CSE,SEC.
 Topic : MST+LCA+RMQ
+  
 */
 
 

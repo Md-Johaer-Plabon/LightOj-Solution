@@ -2,6 +2,7 @@
 Author : Johaer Plabon
 Dept : CSE, Sylhet Engineering College
 Topic : Sparse Table (3D).
+Complexity : 0(n^2*log(n) + q). --> {n = row = column ; q = Queries.}
 */
 
 
